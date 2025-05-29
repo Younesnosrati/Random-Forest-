@@ -1,5 +1,6 @@
 # Random-Forest-
-## Methodology
-- ✅ **Data Preprocessing**: Encoded categorical variables using One-Hot Encoding  
-- 🛠️ **Feature Engineering**: Created interaction terms for improved accuracy  
+- **95% Accuracy** on test set using:
+  - Hyperparameter tuning: `GridSearchCV`
+  - Evaluation: `sklearn.metrics.classification_report`  
+  - Class balancing: `imblearn.over_sampling.SMOTE`  
 - ⚙️ **Hyperparameter Tuning**: Optimized parameters via GridSearchCV
